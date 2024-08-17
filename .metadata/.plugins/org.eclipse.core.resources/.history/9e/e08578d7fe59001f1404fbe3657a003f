@@ -1,0 +1,37 @@
+package lab3;
+
+import java.util.*;
+
+public class Student {
+	int ID;
+	int year;
+	int cgpa;
+	String section;
+
+	
+	int arr[]= new int[10];
+	
+	void take(){
+		int i;
+		for (i=0; i<2; i++) {
+			
+			
+			System.out.println("Enter Student ID");
+			Scanner id = new Scanner(System.in);
+			
+			System.out.println("Enter Student Year");
+			Scanner year = new Scanner(System.in);
+			
+			System.out.println("Enter Student Cgpa");
+			Scanner cgpa = new Scanner(System.in);
+			
+			System.out.println("Enter Student Section");
+			Scanner Section = new Scanner(System.in);
+		}
+		
+		
+		
+		
+	}
+	
+}

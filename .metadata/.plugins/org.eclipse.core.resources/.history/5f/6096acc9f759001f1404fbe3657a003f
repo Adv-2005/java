@@ -1,0 +1,18 @@
+package lab3;
+
+public class volume {
+		public static void main(String args[] {
+			box myBox= new box();
+			myBox.width= 10;
+			myBox.height=20;
+			myBox.length=30;
+			
+			int volume;
+			volume= myBox.width * myBox.length* myBox.width;
+			
+			System.out.println("Volume: " + volume);
+		}
+		
+	}
+
+

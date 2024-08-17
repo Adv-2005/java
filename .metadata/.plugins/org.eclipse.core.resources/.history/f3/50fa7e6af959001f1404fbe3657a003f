@@ -1,0 +1,13 @@
+package lab3;
+
+public class box {
+	int width;
+	int height;
+	int length;
+	
+	void volume() {
+		System.out.println( width*height*length);
+		
+	}
+}
+
